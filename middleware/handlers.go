@@ -4,11 +4,12 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"go-postgres/models"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
+
+	"go-postgres/models"
 
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
